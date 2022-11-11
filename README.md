@@ -1,25 +1,25 @@
 ---
-summary: 'Fix some accessibility problems for VoiceOver & make sure the document prints properly.'
-time: '1 hour'
-deliverables: '1 HTML file, 3 CSS files, images'
+summary: "Fix some accessibility problems for VoiceOver & make sure the document prints properly."
+time: "1 hour"
+deliverables: "1 HTML file, 3 CSS files, images"
 ---
 
 # Kraken good accessibility
 
 ## Overview
 
-- *Fork this repository.*
+- _Fork this repository._
 - Fix a few accessibility problems:
   1. Add the appropriate ARIA landmark roles to tags in the HTML.
   2. Add proper `aria-label` attributes to the navigation items to make them sound better in VoiceOver; also consider `role="presentation"` to hide unnecessary items from VoiceOver.
-  3. Make a few small tweaks to the print styles for better paper accessibility; both in the CSS & HTML with [Modulifier’s print classes](https://learn-the-web.algonquindesign.ca/topics/modulifier-cheat-sheet/#print-styles).
-- *Run it through Markbot and make sure it passes all the checks.*
+  3. Make a few small tweaks to the print styles for better paper accessibility; both in the CSS & HTML with [Modulifier’s print classes](https://learntheweb.courses/topics/modulifier-cheat-sheet/#print-styles).
+- _Run it through Markbot and make sure it passes all the checks._
 
 ---
 
 ## Details
 
-- *Colours:* `#000` (for print)
+- _Colours:_ `#000` (for print)
 
 ---
 
